@@ -10,11 +10,13 @@ Summary:
 6. The circuit now does not need .IC statements to solve pseudo transient analysis issue.  However, `initial_reset_pulse` signal is needed at the input of both A2 and A14
 
 TODO:
-1. Investigate the need/purpose of the `td` parameters of SR latch as well as inverter A16
+1. Study how to increase the `V(out)` voltage variation for the demodulated bit `1` and `0`, such that it is more robust for downstream receiver circuit to perform bit recognition.
 
-2. Debug why the demodulator circuit does not work when passive low-pass circuit is used instead of active low-pass circuit.
+2. Investigate the need/purpose of the `td` parameters of SR latch
 
-3. Study the possibility of demodulating bluetooth enhanced data rate (EDR) : [pi/4-DQPSK for 2 Mb/s , while 8-DPSK is used for 3 Mb/s air data transmissions](http://download.ni.com/evaluation/rf/intro_to_bluetooth_test.pdf#page=14)
+3. Debug why the demodulator circuit does not work when passive low-pass circuit is used instead of active low-pass circuit.
+
+4. Study the possibility of demodulating bluetooth enhanced data rate (EDR) : [pi/4-DQPSK for 2 Mb/s , while 8-DPSK is used for 3 Mb/s air data transmissions](http://download.ni.com/evaluation/rf/intro_to_bluetooth_test.pdf#page=14)
 
 Credit: A big thank you to @Andy and @Vlad from [LTspice forum](https://groups.io/g/LTspice/topic/80343092)
 

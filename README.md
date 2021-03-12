@@ -14,7 +14,9 @@ TODO:
 
 2. Debug why the demodulator circuit does not work when passive low-pass circuit is used instead of active low-pass circuit.
 
-3. Study the possibility of demodulating bluetooth enhanced data rate (EDR) : [pi/4-DQPSK for 2 Mb/s , while 8-DPSK is used for 3 Mb/s air data transmissions](http://download.ni.com/evaluation/rf/intro_to_bluetooth_test.pdf#page=14)
+3. Study the GFSK demodulator using [digital circuit and 5GHz SERDES IO](https://twitter.com/newhouseb/status/1369468611430088712) alone.
+
+4. Study the possibility of demodulating bluetooth enhanced data rate (EDR) : [pi/4-DQPSK for 2 Mb/s , while 8-DPSK is used for 3 Mb/s air data transmissions](http://download.ni.com/evaluation/rf/intro_to_bluetooth_test.pdf#page=14)
 
 Credit: A big thank you to @Andy and @Vlad from [LTspice forum](https://groups.io/g/LTspice/topic/80343092)
 
